@@ -2,42 +2,42 @@
     "cmds": {
         "info": {
             "avatar": {
-                "author": "Avatar from: {usertag}",
+                "author": "Avatar de: {usertag}",
                 "variable1": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "botfaq": {
-                "notallowed": "<a:tickno:862809984043712553> You are not allowed to do that! Only: <@{cmduserid}>",
-                "placeholder": "Click me to make a Selection!",
+                "notallowed": "<a:tickno:862809984043712553> no tienes permitido hacer eso! solo: <@{cmduserid}>",
+                "placeholder": "hazme click para hacer una Selección!",
                 "menuembed": {
-                    "title": "Bot Help",
-                    "description": "***Select what you need in the `Selection` down Below!***"
+                    "title": "Bot ayuda",
+                    "description": "***¡Seleccione lo que necesita en la `Selección` de abajo!***"
                 },
                 "menuoptions": [
                     {
-                        "value": "Creator / Features",
-                        "description": "Who is my Creator? / What are my Features?",
-                        "replymsg": "<:cau:840259659163893820> **__cau Development__ made me!**\n> <:Like:857334024087011378> **Their Website:** https://cau.eu\n> <:Discord:787321652345438228> **Their Discord:** https://discord.gg/NrGWEMRw\n``` ```***__You can join their Discord Server and get yourself a Bot like me, for FREE/CHEAP!__***\n``` ```:muscle: **__My Features__**\n>>> **68+ Systems**, like: <:twitter:840255600851812393> **Twitter-** & <:Youtube:840260133686870036> **Youtube-Auto-Poster** \n**Application-**, Ticket-, **Welcome-Images-** and Reaction Role-, ... Systems\n:notes: An advanced <:Spotify:846090652231663647> **Music System** with **Audio Filtering**\n:video_game: Many **Minigames** and :joystick: **Fun** Commands (150+)\n:no_entry_sign: **Administration** and **Auto-Moderation** and way much more!\n\n**The Developer is: `Cau#3122` <:cau:858450817665204224>, Contact him if you wanna hire him!**",
+                        "value": "Creador / Características ",
+                        "description": "¿Quién es mi Creador? / ¿Cuáles son mis características?",
+                        "replymsg": "<:cau:840259659163893820> **__cau Development__ Hecho por mi!**\n> <:Like:857334024087011378> **Su página web:** https://cau.eu\n> <:Discord:787321652345438228> **Su discord:** https://discord.gg/NrGWEMRw\n``` ```***__Puedes unirte a su Servidor de Discord y conseguir un Bot, ¡GRATIS/BARATO!__***\n``` ```:muscle: **__Mis caracteristicas__**\n>>> **68+ Sistemas**, como: <:twitter:840255600851812393> **Twitter-** & <:Youtube:840260133686870036> **Youtube-Auto-Poster** \n**Application-**, Ticket-, **Bienvenid@-Imágenes-** and Rol de reacción-, ... Sistemas\n:notes: Un avanzado <:Spotify:846090652231663647> **Musica Sistema** con **Filtros de audio**\n:video_game: Muchos **Minijuegos** y :joystick: **Diversión** Comandos (150+)\n:no_entry_sign: **Administración** and **Auto-Moderacion** y Mucho mas!\n\n**El Developer es: `Cau#3122` <:cau:858450817665204224>,¡Contáctalo si quieres contratarlo!**",
                         "emoji": "840259659163893820"
                     },
                     {
-                        "value": "Stats",
-                        "description": "See my Statistics!",
-                        "replymsg": "**__📈 Stats!__**\n>>> :gear: **{commandcount} Commands**\n:file_folder: on **{guildcount} Guilds**\n⌚️ **{uptime} Uptime**\n📶 **`{ping}ms` Ping**",
+                        "value": "Estadísticas",
+                        "description": "¡Vea mis estadísticas!",
+                        "replymsg": "**__📈 estadísticas !__**\n>>> :gear: **{commandcount} Commands**\n:file_folder: on **{guildcount} Guilds**\n⌚️ **{uptime} Uptime**\n📶 **`{ping}ms` Ping**",
                         "emoji": "📈"
                     },
                     {
-                        "value": "How to use me",
-                        "description": "Let me explain you!",
-                        "replymsg": "**__❓ How do you use me?__**\n> My Prefix is: `{prefix}` but you can always **Ping** me instead!\n\n**Just use one of my {commandcount} Commands by typing:**\n> `{prefix}commandname`\n**Example:**\n> `{prefix}help`\n\n__**I have setups, this is how you manage them:**__\n>>> `{prefix}setup` and react with the Emoji for the right action,\nbut you can also do `{prefix}setup-SYSTEM` e.g. `{prefix}setup-welcome`\n\n\n**Very important is this Command:**\n`{prefix}setup-antinuke`, because it protects you from NUKES!",
+                        "value": "Como usar me",
+                        "description": "Dejame explicarte!",
+                        "replymsg": "**__❓ como me usas?__**\n> Mi Prefix es: `{prefix}` pero siempre puedes **Ping** en su lugar!\n\n**Solo usa uno de mis {commandcount} Comandos escribiendo:**\n> `{prefix}commandname`\n**Ejemplo**\n> `{prefix}help`\n\n__**Tengo configuraciones, así es como las administras:**__\n>>> `{prefix}setup` y reaccionar con el Emoji para la acción correcta,\npero también puedes hacer `{prefix}setup-SYSTEM` e.g. `{prefix}setup-welcome`\n\n\n**Muy importante es este Comando:**\n`{prefix}setup-antinuke`, porque te protege de NUKES!",
                         "emoji": "❓"
                     },
-                    {
+                    {   //esto no quite asi que no importa
                         "value": "Sponsor / Support us",
                         "description": "Thanks for everything, you'll get something back!",
                         "replymsg": "**__There are several Sponsor Options:__**\n\n> <:PAYPAL:861207258846330880> **Paypal:**\n> https://paypal.me/cauDevelopment\n\n> <:PATREON:861207934070816849> **Patreon:**\n> https://www.patreon.com/cauDevelopment?fan_landing=true\n\n> 💸 **Donate via Paysafe, Sofort or others: (1/2)**\n> https://bero-host.de/spenden/qgswlxrzgtll\n\n> 💸 **Donate via Paysafe, Sofort or others: (2/2)**\n> https://mc-host24.de/donate/cau\n\n> **Every donator** gets the **@DONATOR Role** on:\n> https://discord.gg/NrGWEMRw\n\n\n> **Every Donator** with more then **10€** Gets a **Free Bot** of his **Choice*!",
                         "emoji": "861207258846330880"
                     },
-                    {
+                    {   //esto igual
                         "value": "Partners / Sponsors",
                         "description": "We are really proud of our Sponsors and Partners!",
                         "replymsg": "<:BeroHost:852970925695041646> Our First/Main Sponsor is **Bero-Host.de** <:BeroHost:852970925695041646>\n> <:Like:857334024087011378> **Their Website:** https://bero-host.de\n> <:Discord:787321652345438228> **Their Discord:** https://discord.bero-host.de\n> *They provide us several HIGH QUALTIY __Servers__ which we are using for our HOSTING! **CHECK THEM OUT**!*\n``` ```<:Bittmax:840370610755862529> Our Second Sponsor is **Bittmax.de** <:Bittmax:840370610755862529>\n> <:Like:857334024087011378> **Their Website:** https://bittmax.de\n> <:Discord:787321652345438228> **Their Discord:** https://discord.gg/GgjJZCyYKD\n> *They provide us several __Servers__ which we are using for our PUBLIC BOT HOSTING! **CHECK THEM OUT**!*\n``` ```**__Partners__**\n> ***We currently have `{partnercount} Partners`, which get at least 1 FREE OP BOT***\n``` ```Wanna be a Partner/Sponsor too? Contact us in our <:Discord:787321652345438228> **Discord:** https://discord.gg/NrGWEMRw and open a Ticket in <#840491251278676008>",
@@ -105,34 +105,34 @@
             },
             "djmode": {
                 "nodjroles": "no Dj Roles, aka all Users are Djs",
-                "description": "If a Command is listed here, and at least one role exists, then it means that you have to have this Role, in order to be able to use these listed Commands!",
-                "field1": "<:arrow:832598861813776394> Dj Only Commands active for:",
+                "description": "Si aparece un Comando aquí, y existe al menos un rol, significa que debe tener este Rol para poder usar estos Comandos enumerados!",
+                "field1": "<:arrow:832598861813776394> Dj solo Comandoss activado para:",
                 "field2": "<:arrow:832598861813776394> Dj Roles",
                 "variable1": "\"🎧 Dj Mode\"",
                 "variable2": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "emojiinfo": {
-                "error1": "<a:tickno:862809984043712553> Your message does not include a VALID Emoji, please retry by adding a guild specific emoji!",
-                "error2": "Please provide a custom Emoji from **THIS GUILD**",
-                "error3": "Couldn't find an emoji to paste! if it's uniced(standard) and not a guild Emoji, it's not possible!",
+                "error1": "<a:tickno:862809984043712553> Su mensaje no incluye un Emoji VÁLIDO, vuelva a intentarlo agregando un emoji específico del gremio!",
+                "error2": "Proporcione un Emoji personalizado de **ESTE GREMIO**",
+                "error3": "¡No pude encontrar un emoji para pegar! si es unificado (estándar) y no un emoji de gremio, ¡no es posible!",
                 "embed": {
-                    "title": "Emoji Information for:",
+                    "title": "Información de emojis para:",
                     "field1": {
                         "title": "**__General:__**",
                         "value": [
                             "**ID:**",
                             "**URL:**",
-                            "**AUTHOR:**",
-                            "**CREATED AT:**"
+                            "**AUTOR:**",
+                            "**CREADO EN:**"
                         ]
                     },
                     "field2": {
                         "title": "**__Others:__**",
                         "value": [
-                            "**Requires Colons:**",
-                            "**Animated:**",
-                            "**Deleteable:**",
-                            "**Managed:**"
+                            "**Requiere Colones:**",
+                            "**Animado:**",
+                            "**Eliminable:**",
+                            "**Administrado:**"
                         ]
                     }
                 },
@@ -141,53 +141,53 @@
                 "variable3": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "enlarge": {
-                "error1": "<a:tickno:862809984043712553> Your message does not include a VALID Emoji, please retry by adding a guild specific emoji!",
-                "error2": "Couldn't find an emoji to paste! if it's uniced(standard) and not a guild Emoji, it's not possible!",
+                "error1": "<a:tickno:862809984043712553> Tu mensaje no incluye un Emoji VÁLIDO, vuelve a intentarlo agregando un emoji específico del gremio!",
+                "error2": "¡No pude encontrar un emoji para pegar! si es unificado (estándar) y no un emoji de gremio, ¡no es posible!",
                 "variable1": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "getinvitechannel": {
-                "error": ":x: You didn't provided a Channel"
+                "error": ":x:No proporcionaste un canal"
             },
             "github": {
                 "buttons": {
-                    "invite": "Invite Public Version",
-                    "dc": "Get yourself a own Bot",
-                    "botlist": "Public Bot-List-Website"
+                    "invite": "Invitar versión pública",
+                    "dc": "Consigue tu propio Bot",
+                    "botlist": "Sitio web público de la lista de bots"
                 },
-                "title": "Cau#3122 | Dev of 4 Orgs | Developer of 1200+ BOTS",
-                "description": "<:arrow:832598861813776394> Hello I am **cau** <@442355791412854784> *(`Cau#3122`)*, and i made more then 1200 different Discord Bots: [My Bot List](https://botlist.cau.eu)\n\n<:arrow:832598861813776394> I am very proud for all of my verified and not verified Discord Bots, but the Bot I am the most proud of is: [**LAVA MUSIC** | `2021's Best Music Bot`](https://lava.cau.eu) <@742672021422342165>\n\n<:arrow:832598861813776394> I made this Bot, and you can get a free Bot too! Just go to: [My Service](https://dc.cau)\n\n<:arrow:832598861813776394> I am also a **Website** Developer and **Plugin** dev. I made **Modules** like a **SPEECH Module** [SEE IT](https://cdn.discordapp.com/attachments/778714123785076768/801606374105546782/2021-01-21_01-15-50.mp4)\n\n<:arrow:832598861813776394> Yeah i hope you like my stuff :v: <3",
+                "title": "Cau#3122 | Dev of 0 Orgs | Desarrollador de 2+ BOTS",
+                "description": "<:arrow:832598861813776394> hola soy **cau** <@442355791412854784> *(`Cau#3122`)*, e hice más de 2 Discord Bots diferentes: [Mi Bot List](https://botlist.cau.eu)\n\n<:arrow:832598861813776394> Estoy muy orgulloso de todos mis Discord Bots verificados(ninguno) y no verificados, pero el Bot del que estoy más orgulloso es: [**Kaytlin** | `2021's mejor Bot de musica`](https://lava.cau.eu) <@742672021422342165>\n\n<:arrow:832598861813776394> Hice este Bot, ¡y tú también puedes obtener un Bot gratis! solo ve a: [Mis Service](https://dc.cau)\n\n<:arrow:832598861813776394> También soy un **desarrollador de sitios web** y desarrollador de **complementos**. Hice **Módulos** como un **Módulo de VOZ** [VERLO](https://cdn.discordapp.com/attachments/778714123785076768/801606374105546782/2021-01-21_01-15-50.mp4)\n \n<:arrow:832598861813776394> Sí, espero que te gusten mis cosas :v: <3",
                 "variable1": "`\\`\\`\\`${String(e.stack).substr(0, 2000)}\\`\\`\\``"
             },
             "help": {
-                "error1": "NO CUSTOM COMMANDS DEFINED YET, do it with: `setup-customcommands`",
-                "nocustom": "No custom information for the Custom Commands ;(",
-                "noinfo": "No Information found for the command **{command}**",
-                "footer": "To see command Descriptions and Information, type: {prefix}help [CMD NAME]",
+                "error1": "NO HAY COMANDOS PERSONALIZADOS DEFINIDOS AÚN, hágalo con: `setup-customcommands`",
+                "nocustom": "No hay información personalizada para los comandos personalizados ;(",
+                "noinfo": "No se encontró información para el comando **{command}**",
+                "footer": "Para ver las descripciones e información de los comandos, escriba: {prefix}help [CMD NAME]",
                 "detail": {
-                    "name": "**<:arrow:832598861813776394> Command name**",
-                    "desc": "**<:arrow:832598861813776394> Description**",
+                    "name": "**<:arrow:832598861813776394> Nombre del comando**",
+                    "desc": "**<:arrow:832598861813776394> Descripción**",
                     "aliases": "**<:arrow:832598861813776394> Aliases**",
-                    "about": "<:arrow:832598861813776394> Detailed Information about: `{cmdname}`",
+                    "about": "<:arrow:832598861813776394> Información detallada sobre: `{cmdname}`",
                     "cooldown": "**<:arrow:832598861813776394> Cooldown**",
                     "usage": "**<:arrow:832598861813776394> Usage**",
                     "syntax": "Syntax: <> = required, [] = optional"
                 },
                 "buttons": {
-                    "home": "Home",
-                    "back": "Back",
-                    "forward": "Forward"
+                    "home": "casa",
+                    "back": "atras",
+                    "forward": "adelante"
                 },
                 "overview": {
-                    "title": ":gear: **__Command Category Overview__**",
-                    "desc": "> <a:yes:937608626380615680> ... **Overview**\n\n> 🔰 ... **Information**\n> 🎶 ... **Music Related**\n> ⚙ ... **Settings & 👑 Owner & ⌨️Programming**\n> 🎤 ... **Voice & 📈 Ranking**\n> 🎮 ... **Mini Games & 🕹️ Fun**\n> 🚫 ... **Administration & 💪 Setup**\n> 🔞 ... **NSFW**\n> 🦾 ... **Custom Commands**\n\n> *Click on the Button Emojis to jump to the Command Category*\n> *Use the Arrows to swap the Pages forward/backward/jump-back-home*"
+                    "title": ":gear: **_ Descripción general de la categoría de comandos**",
+                    "desc": "> <a:yes:937608626380615680> ... **Descripción general**\n\n> 🔰 ... **Información**\n> 🎶 ... **Música relacionada**\n> ⚙ ... **Ajustes & 👑 Owner & ⌨️Programación**\n> 🎤 ... **Voz & 📈 Clasificación**\n> 🎮 ... **Mini juegos & 🕹️ diversión**\n> 🚫 ... **Administración & 💪 Configuración**\n> 🔞 ... **NSFW**\n> 🦾 ... **Comandos personalizados**\n\n> *Haz clic en los emojis de botones para saltar a la categoría de comandos.*\n> *Use las flechas para cambiar las páginas hacia adelante/atrás/saltar de regreso a casa*"
                 },
-                "buttonerror": ":x: **Only the one who typed {prefix}help is allowed to react!**",
-                "timeended": "Time has ended type {prefix}help again!",
-                "variable1": "`🦾 **Custom Commands [${cuc[0].includes(\"NO\") ? 0 : items.length}]**`",
+                "buttonerror": ":x: **Sólo el que escribió {prefix}help se le permite reaccionar!**",
+                "timeended": "El tiempo ha terminado tipo {prefix}help de nuevo!",
+                "variable1": "`🦾 **Comandos personalizados [${cuc[0].includes(\"NO\") ? 0 : items.length}]**`",
                 "variable2": "`HELP-MENU 🔰 **${category.toUpperCase()} [${items.length}]**`",
                 "variable3": "`**${category.toUpperCase()} [${items.length}]**`, `> \\`${items[0]}\\`\\n\\n**Usage:**\\n> \\`${cmd.usage}\\``",
                 "variable4": "`${items.join(\"︲\")}`",
-                "variable5": "`Information about the <:clanbot:832697296687726654> Clan Bot: __**${client.user.username}**__`",
+                "variable5": "`Información sobre el <:clanbot:832697296687726654> Clan Bot: __**${client.user.username}**__`",
                 "variable6": "`🔰 Information Commands 🔰`",
                 "variable7": "`> ${client.commands.filter((cmd) => cmd.category === \"🔰 Info\").map((cmd) => `\\`${cmd.name}\\``).join(\"︲\")}`",
                 "variable8": "`🎶 Music Related Commands :notes:`",
@@ -208,50 +208,50 @@
                 "variable23": "\"🦾 Custom Commands\"",
                 "variable24": "`🦾 **Custom Commands [${cuc[0].includes(\"NO\") ? 0 : items.length}]**`",
                 "variable25": "\"<:cau:840259659163893820> Bot Creator Company Advertisment\"",
-                "variablex_26": "`<:cau:840259659163893820> **__Bot Creator Information__**`", "variable26": "`>>> 💯 This Bot has been made by:\\n[**cau Development**](https://cau.eu)・[Discord](https://discord.com/invite/cau)<:Discord:787321652345438228> [Click here to order yourself a own one](https://discord.com/invite/cau)`",
+                "variablex_26": "`<:cau:840259659163893820> **__Bot Creator Information__**`", "variable26": "`>>> 💯 Este Bot ha sido hecho por:\\n[**cau Development**](https://cau.eu)・[Discord](https://discord.com/invite/cau)<:Discord:787321652345438228> [Click here to order yourself a own one](https://discord.com/invite/cau)`",
                 "variable27": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "invite": {
-                "title": "Click here to invite me",
+                "title": "Haga clic aquí para invitarme",
                 "buttons": {
-                    "public": "Invite Public Bot",
-                    "server": "Support Server",
-                    "bot": "Invite this Bot"
+                    "public": "Invitar bot público",
+                    "server": "Servicio de apoyor",
+                    "bot": "Invitar a este robot"
                 },
                 "variable1": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "invites": {
-                "author": "Invites of: {usertag}",
+                "author": "Invitaciones de: {usertag}",
                 "field1": {
-                    "value": "<:Like:857334024087011378> {user} _**has invited __{realinvites} Member(s)__**_!"
+                    "value": "<:Like:857334024087011378> {user} _**ha invitado __{realinvites} Member(s)__**_!"
                 },
                 "field2": {
-                    "title": "💡 **That means he/she has:**",
-                    "value": "> <:joines:866356465299488809> {invites} Joins (When the Member Joins the Server)\n> <:leaves:866356598356049930> {leaves} Leaves (When the invited Member left the Server)\n> <a:tickno:862809984043712553> {fake} Fakes (Alt Accounts / Rejoins)"
+                    "title": "💡 **Eso significa que él/ella tiene:**",
+                    "value": "> <:joines:866356465299488809> {invites} Se une (cuando el miembro se une al servidor)\n> <:leaves:866356598356049930> {leaves} Leaves (Cuando el miembro invitado abandonó el servidor)\n> <a:tickno:862809984043712553> {fake} Falsificaciones (Cuentas alternativas / Reingresos)"
                 },
                 "field3": {
-                    "title": "📘 **To Calculate your Invites do:**"
+                    "title": "📘 **Para calcular tus invitaciones hazlo:**"
                 },
                 "field4": {
-                    "title": "💬 **Amount of Messages sent:**",
+                    "title": "💬 **Cantidad de mensajes enviados:**",
                     "value": "> `{messagesCount} Messages`"
                 },
                 "variable1": "`\\`\\`\\`${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "membercount": {
-                "title": "Member-Count Information About:",
-                "field1": "<:arrow:832598861813776394> Total USERS",
-                "field2": "<:arrow:832598861813776394> Total HUMANS",
-                "field3": "<:arrow:832598861813776394> Total BOTS",
-                "field4": "<:arrow:832598861813776394> ONLINE",
+                "title": "Información sobre el número de miembros:",
+                "field1": "<:arrow:832598861813776394> Total de usuarios",
+                "field2": "<:arrow:832598861813776394> HUMANOS totales",
+                "field3": "<:arrow:832598861813776394> BOTS totales",
+                "field4": "<:arrow:832598861813776394> EN LÍNEA",
                 "field5": "<:arrow:832598861813776394> IDLE",
                 "field6": "<:arrow:832598861813776394> DND",
-                "field7": "<:arrow:832598861813776394> OFFLINE",
+                "field7": "<:arrow:832598861813776394> DESCONECTADO",
                 "variable1": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "modstats": {
-                "about": "The Stats of:",
-                "desc": "*[] ... Days the amount of Cmds were executed*\n*Says includes embeds too*",
+                "about": "Las estadísticas de:",
+                "desc": "*[] ... Días que se ejecutaron la cantidad de Cmds*\n*Dice que incluye incrustaciones también*",
                 "variablex_1": "\"Bans [7]\"", "variable1":"\"**`\" + client.stats.get(message.guild.id + user.id, \"ban\").filter(item => { var date = new Date(); date.setDate(date.getDate() - 7); return date <= Number(item); }).length + \"`**\"",
                 "variablex_2": "\"Bans [30]\"", "variable2":"\"**`\" + client.stats.get(message.guild.id + user.id, \"ban\").filter(item => { var date = new Date(); date.setDate(date.getDate() - 30); return date <= Number(item); }).length + \"`**\"",
                 "variablex_3": "\"Bans [All]\"", "variable3":"\"**`\" + client.stats.get(message.guild.id + user.id, \"ban\").length + \"`**\"",
@@ -273,22 +273,22 @@
                 "variable19": "`\\`\\`\\`${String(JSON.stringify(e)).substr([], 2000)}\\`\\`\\``"
             },
             "permissions": {
-                "from": "Permissions from: {usertag}",
-                "from2": "**<:arrow:832598861813776394> Permissions:**",
+                "from": "permisos de: {usertag}",
+                "from2": "**<:arrow:832598861813776394> permisos:**",
                 "variable1": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "ping": {
-                "m1": ":heartbeat: Testing Connection Speed ...",
+                "m1": ":heartbeat: Prueba de velocidad de conexión ...",
                 "m2": ":robot: Bot Ping: `{botping}ms`\n\n:stopwatch: Host Ping: `{ping}`\n\n:hourglass: Api Latency: `{wsping}ms`",
                 "variable1": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "reactions": {
                 "NOT NEEDED": "DISABLED",
-                "variable1": "\"🩸 My Reactions when playing a Track does those Things\"",
+                "variable1": "\"🩸 Mis reacciones cuando reproduzco una pista hace esas cosas\"",
                 "variable2": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "roleinfo": {
-                "author": "Information about:",
+                "author": "Información sobre:",
                 "field1": "**<:arrow:832598861813776394> Name:**",
                 "field2": "**<:arrow:832598861813776394> ID:**",
                 "field3": "**<:arrow:832598861813776394> Color:**",
@@ -301,75 +301,75 @@
                 "variable1": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "serveravatar": {
-                "author": "Avatar from: {servername}",
+                "author": "Avatar de: {servername}",
                 "variable1": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "serverinfo": {
                 "author": "Server Information About:",
                 "field1": "**<:arrow:832598861813776394> Owner:**",
-                "field2": "**<:arrow:832598861813776394> Created On:**",
-                "field3": "**<:arrow:832598861813776394> You Joined:**",
-                "field4": "**<:arrow:832598861813776394> All Channels:**",
-                "field5": "**<:arrow:832598861813776394> Text Channels:**",
-                "field6": "**<:arrow:832598861813776394> Voice Channels:**",
-                "field7": "**<:arrow:832598861813776394> Total USERS:**",
-                "field8": "**<:arrow:832598861813776394> Total HUMANS:**",
-                "field9": "**<:arrow:832598861813776394> Total BOTS:**",
-                "field10": "**<:arrow:832598861813776394> ONLINE:**",
-                "field11": "**<:arrow:832598861813776394> OFFLINE:**",
-                "field12": "**<:arrow:832598861813776394> Total Boosts:**",
-                "field13": "**<:arrow:832598861813776394> Boost-Level:**",
-                "field14": "**<:arrow:832598861813776394> Max-Talk-Bitrate:**",
+                "field2": "**<:arrow:832598861813776394> Creado en:**",
+                "field3": "**<:arrow:832598861813776394> te uniste:**",
+                "field4": "**<:arrow:832598861813776394> Todos los canales:**",
+                "field5": "**<:arrow:832598861813776394> Canales de texto:**",
+                "field6": "**<:arrow:832598861813776394> Canales de voz:**",
+                "field7": "**<:arrow:832598861813776394> Total de usuarios:**",
+                "field8": "**<:arrow:832598861813776394> HUMANOS totales:**",
+                "field9": "**<:arrow:832598861813776394> BOTS totales:**",
+                "field10": "**<:arrow:832598861813776394> EN LÍNEA:**",
+                "field11": "**<:arrow:832598861813776394> DESCONECTADO:**",
+                "field12": "**<:arrow:832598861813776394> Impulsos totales:**",
+                "field13": "**<:arrow:832598861813776394> Nivel de impulso:**",
+                "field14": "**<:arrow:832598861813776394> Tasa de bits máxima de conversación:**",
                 "variablex_1": "`<:arrow:832598861813776394> [${message.guild.emojis.cache.size}] Emojis: `", "variable1":"\"> \"+message.guild.emojis.cache.size < 35 ? message.guild.emojis.cache.map(emoji => `${emoji}`).join(\"︲\") : message.guild.emojis.cache.size > 35 ? emojitrimarray(message.guild.emojis.cache.map(emoji => `${emoji}`)).substr(0, 2048) : 'No Emojis'",
                 "variablex_2": "`<:arrow:832598861813776394> [${message.guild.roles.cache.size}] Roles: `", "variable2":"\"> \"+message.guild.roles.cache.size < 40 ? [...message.guild.roles.cache.values()].sort((a, b) => b.rawPosition - a.rawPosition).map(role => `<@&${role.id}>`).join(', ') : message.guild.roles.cache.size > 40 ? trimArray(message.guild.roles.cache) : 'None'",
                 "variable3": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "servers": {
-                "title": "All **`[{guildsin}] Guilds` {bottag}** is in",
-                "map": "**`{guildname} ({guildid})`・**Members:** `{guildmemberCount}`**",
+                "title": "Todo **`[{guildsin}] Guilds` {bottag}** es en",
+                "map": "**`{guildname} ({guildid})`・**Miembros:** `{guildmemberCount}`**",
                 "variable1": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "showblacklist": {
-                "info": "Blacklisted Words",
+                "info": "Palabras en la lista negra",
                 "variable1": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "sponsor": {
-                "variable1": "\"BERO-HOST.de | German Hosting\"",
+                "variable1": "\"NOTHING\"",
                 "variable2": "-",
                 "variable3": "-",
-                "variable4": "\"Bittmax\"",
+                "variable4": "\"AAAA\"",
                 "variable5": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "stats": {
-                "title": "💿 The Stats of {botname}",
+                "title": "💿 Las estadísticas de {botname}",
                 "field1": {
-                    "title": "⚙️ GLOBAL Commands used:",
-                    "value": ">>> `{allcommands} Commands` used\nin **all** Servers"
+                    "title": "⚙️ Comandos GLOBALES utilizados:",
+                    "value": ">>> `{allcommands} Commands` usados\nen **todos los** Servers"
                 },
                 "field2": {
-                    "title": "🎵 GLOBAL Songs played:",
-                    "value": ">>> `{allsongs} Songs` played in\n**all** Servers"
+                    "title": "🎵 Canciones GLOBALES reproducidas:",
+                    "value": ">>> `{allsongs} Songs` Reproducidas en\n**todos los** Servers"
                 },
                 "field3": {
-                    "title": "⚙️ SERVER Commands used:",
-                    "value": ">>> `{guildcommands} Commands` used in\n**this** Server"
+                    "title": "⚙️ SERVIDOR Comandos utilizados:",
+                    "value": ">>> `{guildcommands} Commands` utilizado en\n**este** Server"
                 },
                 "field4": {
-                    "title": "🎵 SERVER Songs played:",
-                    "value": ">>> `{guildsongs} Songs` played in\n**this** Server"
+                    "title": "🎵 SERVIDOR Canciones reproducidas:",
+                    "value": ">>> `{guildsongs} Songs` Reproducidas en\n**este** Server"
                 },
                 "variablex_1": "\"\\u200b\"", "variable1": "\"\\u200b\"",
                 "variable2": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "support": {
-                "title": ":tickets: You need help? **JOIN OUR SUPPORT SERVER**",
-                "variable1": "`**[Invite Public Bot](https://discord.com/api/oauth2/authorize?client_id=784364932149280778&permissions=8&scope=bot)  •  [WEBSITE](https://cau.eu)  •  [Support Server/Get your Own Bot](https://discord.com/invite/cau)**`",
+                "title": ":tickets: ¿Necesitas ayuda? **ÚNETE A NUESTRO SERVIDOR DE SOPORTE**",
+                "variable1": "`**[Invite Public Bot](https://discord.com/api/oauth2/authorize?client_id=784364932149280778&permissions=8&scope=bot)  •  [WEBSITE](https://cau.eu)  •  [Servidor de soporte/Consigue tu propio bot](https://discord.com/invite/cau)**`",
                 "variable2": "-",
                 "variable3": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "tiktokinfo": {
-                "title": "Information about: **`{name}`**",
-                "description": "**Nickname:** `{nickName}`\n**Bio:**\n> {signature}\n\n> **`{fans} Followers` | `{following} Follows` | `{video}Posts`**",
+                "title": "Información sobre: **`{name}`**",
+                "description": "**Apodo:** `{nickName}`\n**Bio:**\n> {signature}\n\n> **`{fans} Followers` | `{following} Follows` | `{video}Posts`**",
                 "videos": "> **[Watch it]({url}) | `{views} Views` | `{shares} Shares` | `{comments} Comments`**",
                 "variable1": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
@@ -382,17 +382,17 @@
             },
             "twitterinfo": {
                 "field1": {
-                    "title": "**Name:**"
+                    "title": "**Nombre:**"
                 },
                 "field2": {
-                    "title": "**Created at:**"
+                    "title": "**Creado en:**"
                 },
                 "field3": {
                     "title": "**Followers:**",
                     "value": "`${user.followers} Followers`"
                 },
                 "field4": {
-                    "title": "**Friends:**",
+                    "title": "**amigos:**",
                     "value": "`${user.friends} Friends`"
                 },
                 "field5": {
@@ -407,35 +407,35 @@
                 "variable2": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "uptime": {
-                "TIME NOT NEEDED": "",
+                "TIEMPO NO NECESARIO": "",
                 "variable1": "`:white_check_mark: **${client.user.username}** Uptime`",
                 "variable2": "`\\`\\`\\`css\\n${duration(client.uptime).map(i=> `${i}`).join(\"︲\")}\\`\\`\\``",
                 "variablex_3": "\"**Date Launched**\"", "variable3":"moment(timestamp).format(\"LLLL\")",
                 "variable4": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "userinfo": {
-                "author": "Information about: {usertag}",
-                "field1": "**<:arrow:832598861813776394> Username:**",
+                "author": "Información sobre: {usertag}",
+                "field1": "**<:arrow:832598861813776394> Nombre de usuario:**",
                 "field2": "**<:arrow:832598861813776394> ID:**",
                 "field3": "**<:arrow:832598861813776394> Avatar:**",
-                "field4": "**<:arrow:832598861813776394> Date Join DC:**",
-                "field5": "**<:arrow:832598861813776394> Date Join Guild:**",
-                "field6": "**<:arrow:832598861813776394> Flags:**",
+                "field4": "**<:arrow:832598861813776394> Fecha de ingreso a DC:**",
+                "field5": "**<:arrow:832598861813776394> Fecha de ingreso al gremio:**",
+                "field6": "**<:arrow:832598861813776394> banderas:**",
                 "field7": "**<:arrow:832598861813776394> Status:**",
-                "field8": "**<:arrow:832598861813776394> Highest Role:**",
-                "field9": "**<:arrow:832598861813776394> Is a Bot:**",
-                "field10": "**<:arrow:832598861813776394> Activity:**",
-                "field11": "**<:arrow:832598861813776394> Permissions:**",
+                "field8": "**<:arrow:832598861813776394> Rol más alto:**",
+                "field9": "**<:arrow:832598861813776394> es un Bot:**",
+                "field10": "**<:arrow:832598861813776394> Actividad:**",
+                "field11": "**<:arrow:832598861813776394> permisos:**",
                 "field12": "**<:arrow:832598861813776394> [{rolesize}] Roles:**",
                 "noroles": "No Roles",
-                "nopermissions": "No Permissions",
-                "nostatus": "Not having an activity",
+                "nopermissions": "No permisos",
+                "nostatus": "No tiene actividad",
                 "variable1": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "youtubeinfo": {
-                "loading": "Getting the Channel-Information-Data",
-                "error1": "<a:tickno:862809984043712553> Please use a Valid Youtube Link",
-                "error2": ":x: **Only the one who typed {prefix}youtubeinfo is allowed to react!**",
+                "loading": "Obtener el canal-información-datos",
+                "error1": "<a:tickno:862809984043712553> Utilice un enlace válido de Youtube",
+                "error2": ":x: **Sólo el que escribió {prefix}youtubeinfo se le permite reaccionar!**",
                 "example": "Example Usage: `{prefix}youtubeinfo https://youtube.com`",
                 "field1": "**Subscribercount:**",
                 "field2": "**Tags:**",
@@ -452,80 +452,80 @@
         "music": {
             "autoplay": {
                 "enabled": {
-                    "title": "**Successfully __Enabled__ AUTOPLAY MODE**",
-                    "description": "**I will now automatically add a Song when the Queue get's Empty (overwrites afk-Mode)!**"
+                    "title": "**Exitosamente _ Habilitado __ MODO DE REPRODUCIR AUTOMÁTICO**",
+                    "description": "**Ahora agregaré automáticamente una canción cuando la cola esté vacía. (overwrites afk-Mode)!**"
                 },
                 "disabled": {
-                    "title": "**Successfully __Disabled__ AUTOPLAY MODE**",
-                    "description": "**I will now not automatically add a Song when the Queue get's Empty (overwrites afk-Mode)!**"
+                    "title": "**Con éxito __ Deshabilitado __ MODO DE REPRODUCIR AUTOMÁTICO**",
+                    "description": "**Ahora no agregaré automáticamente una canción cuando la cola se quede vacía. (overwrites afk-Mode)!**"
                 },
                 "variable1": "`${player.get(`autoplay`) ? client.la[ls].cmds.music.autoplay.enabled.title : client.la[ls].cmds.music.autoplay.disabled.title}`",
                 "variable2": "`${player.get(`autoplay`) ? client.la[ls].cmds.music.autoplay.enabled.description : client.la[ls].cmds.music.autoplay.disabled.description}`",
                 "variable3": "`\\`\\`\\`${e.message}\\`\\`\\``"
             },
             "clearqueue": {
-                "title": "🗑 **Cleared the Queue!**",
+                "title": "🗑 **Lista limpiada!**",
                 "variable1": "`\\`\\`\\`${e.message}\\`\\`\\``"
             },
             "forceskip": {
-                "title": "⏹️ **Stopped playing and left your Channel!**",
-                "title2": "⏭ **Skipped the current Track!**",
+                "title": "⏹️ **Dejó de Reproducir y abandonó su canal!**",
+                "title2": "⏭ **Saltó la pista actual!**",
                 "variable1": "`Channel: <#${player.voiceChannel}>`",
                 "variable2": "`\\`\\`\\`${e.message}\\`\\`\\``"
             },
             "forward": {
-                "allowed": "<a:tickno:862809984043712553> **You may forward for `1` - `{duration}` Seconds!**",
-                "title": "<a:yes:937608626380615680> **Forwarded the Song**",
-                "description": "**Forwarded for `{amount} Seconds` to: `{time}`**",
+                "allowed": "<a:tickno:862809984043712553> **Puede reenviar por `1` - `{duration}` Segundos!**",
+                "title": "<a:yes:937608626380615680> **reenvió el musica**",
+                "description": "**Reenviado para `{amount} Segundos` to: `{time}`**",
                 "field": "⌛ **Progress:**",
                 "variable1": "`\\`\\`\\`${e.message}\\`\\`\\``"
             },
             "grab": {
-                "author": "Saved Song:",
-                "field1": "⌛ **Duration:**",
-                "field2": "💯 **Song By:**",
-                "field3": "🔄 **Queue length:**",
-                "field4": "🎶 **Play it:**",
-                "field5": "🔎 **Saved in:**",
-                "footer": "Requested by: {usertag} ・ in: {guild}",
+                "author": "Canción guardada:",
+                "field1": "⌛ **Duración:**",
+                "field2": "💯 **Canción de:**",
+                "field3": "🔄 **Longitud de la cola:**",
+                "field4": "🎶 **reproduciendolo:**",
+                "field5": "🔎 **guardado en:**",
+                "footer": "Solicitado por: {usertag} ・ en: {guild}",
                 "variable1": "`${player.playing ? `▶` : `⏸`} **${player.queue.current.title}**`",
                 "variable2": "`\\`\\`\\`${e.message}\\`\\`\\``"
             },
             "join": {
-                "title": "<a:yes:937608626380615680> **Joined and connected to your Talk!**",
+                "title": "<a:yes:937608626380615680> **Unido y conectado a tu conversación!**",
                 "variable1": "`Channel: <#${player.voiceChannel}>`",
                 "variable2": "`Channel: <#${player.voiceChannel}>`",
                 "variable3": "`Channel: <#${player.voiceChannel}>`",
                 "variable4": "`\\`\\`\\`${e.message}\\`\\`\\``"
             },
             "jump": {
-                "error1": "<a:tickno:862809984043712553> **Please include to which track you want to Jump**",
-                "error2": "<a:tickno:862809984043712553> **It has to be a `Queue Number`**",
-                "error3": "<a:tickno:862809984043712553> **That Song is not in the Queue**!",
-                "title": "<a:yes:937608626380615680> **Jumped to the: `{number}.` Song**",
-                "description": "⏭ **Skipped `{number}` Songs!**",
+                "error1": "<a:tickno:862809984043712553> **Incluya a qué pista desea saltar**",
+                "error2": "<a:tickno:862809984043712553> **tiene que ser un `Queue Number`**",
+                "error3": "<a:tickno:862809984043712553> **Esa canción no está en la cola**!",
+                "title": "<a:yes:937608626380615680> **saltó a la: `{number}.` musica**",
+                "description": "⏭ **saltadas `{number}` musicas!**",
                 "variable1": "`${client.la[ls].common.example}: \\`${prefix}jump ${player.queue.size - 2 <= 0 ? player.queue.size : player.queue.size - 2 }\\``",
                 "variable2": "`\\`\\`\\`${e.message}\\`\\`\\``"
             },
             "loop": {
-                "errortitle": "<a:tickno:862809984043712553> **Please add your Looping Method!**",
+                "errortitle": "<a:tickno:862809984043712553> **¡Agregue su método de bucle!**",
                 "errordescription": "`loop song` / `loop queue` / `loop off`",
                 "track": {
-                    "disabled": "<a:tickno:862809984043712553> **Disabled the Track Repeat mode!**",
-                    "enabled": "<a:yes:937608626380615680> **Enabled the Track Repeat mode!**"
+                    "disabled": "<a:tickno:862809984043712553> **¡Deshabilitado el modo de repetición de pista!**",
+                    "enabled": "<a:yes:937608626380615680> **¡Habilite el modo de repetición de pista!**"
                 },
                 "queue": {
-                    "disabled": "<a:tickno:862809984043712553> **Disabled the Queue Repeat mode!**",
-                    "enabled": "<a:yes:937608626380615680> **Enabled the Queue Repeat mode!**"
+                    "disabled": "<a:tickno:862809984043712553> **Deshabilitado el modo de repetición de cola!**",
+                    "enabled": "<a:yes:937608626380615680> **Habilitado el modo de repetición de cola!**"
                 },
-                "andsong": "<a:tickno:862809984043712553> **And disabled the Song Repeat Mode!**",
-                "andqueue": "<a:tickno:862809984043712553> **And disabled the Queue Repeat Mode!**",
+                "andsong": "<a:tickno:862809984043712553> **Y deshabilitó el modo de repetición de canción!**",
+                "andqueue": "<a:tickno:862809984043712553> **Y deshabilitó el modo de repetición de cola!**",
                 "variable1": "`\\`\\`\\`${e.message}\\`\\`\\``"
             },
             "lyrics": {
-                "nolyrics": "<a:tickno:862809984043712553> **No Lyrics found!**",
-                "searching": "🔎 **Searching lyrics for: `{title}`**",
-                "found": "📃 **Lyrics for:** `{title}`",
+                "nolyrics": "<a:tickno:862809984043712553> **No se encuentra la letra!**",
+                "searching": "🔎 **Buscando letras de: `{title}`**",
+                "found": "📃 **letras de:** `{title}`",
                 "variable1": "`\\u200b`",
                 "variable2": "`\\`\\`\\`${e.message}\\`\\`\\``"
             },
@@ -540,53 +540,53 @@
                 "variable8": "`\\`\\`\\`${e.message}\\`\\`\\``"
             },
             "moveme": {
-                "variable1": "`<a:tickno:862809984043712553> I am connected nowhere`",
-                "variable2": "`${emoji.msg.ERROR} Please Connect first`",
-                "variable3": "`${emoji.msg.ERROR} The Channel is full, I cant move you`",
-                "variable4": "`${emoji.msg.ERROR} You are already in my channel `",
+                "variable1": "`<a:tickno:862809984043712553> estoy conectado a ninguna parte`",
+                "variable2": "`${emoji.msg.ERROR} Conéctese primero`",
+                "variable3": "`${emoji.msg.ERROR} El canal está lleno, no puedo moverte`",
+                "variable4": "`${emoji.msg.ERROR} ya estas en mi canal `",
                 "variable5": "`\\`\\`\\`${e.message}\\`\\`\\``"
             },
             "nowplaying": {
-                "variable1": "`<a:tickno:862809984043712553> There is nothing playing`",
+                "variable1": "`<a:tickno:862809984043712553> no hay nada Reproduciendose`",
                 "variable2": "`${player.playing ? `${emoji.msg.resume}` : `${emoji.msg.pause}`} **${player.queue.current.title}**`",
                 "variable3": "`\\`\\`\\`${e.message}\\`\\`\\``"
             },
             "pause": {
-                "variable1": "`<a:tickno:862809984043712553> The song is already paused!`",
+                "variable1": "`<a:tickno:862809984043712553> La canción ya está en pausa.!`",
                 "variable2": "`You can resume it with: \\`${prefix}resume\\``",
                 "variable3": "`\\`\\`\\`${e.message}\\`\\`\\``"
             },
             "play": {
-                "variable1": "`<a:tickno:862809984043712553> You need to give me a URL or a Search term.`",
+                "variable1": "`<a:tickno:862809984043712553> Tienes que darme una URL o un término de búsqueda.`",
                 "variable2": "`\\`\\`\\`${e.message}\\`\\`\\``"
             },
             "playlist": {
-                "variable1": "`<a:tickno:862809984043712553> You need to give me a URL or a search term.`",
+                "variable1": "`<a:tickno:862809984043712553> Tienes que darme una URL o un término de búsqueda.`",
                 "variable2": "`\\`\\`\\`${e.message}\\`\\`\\``"
             },
             "playmusicmix": {
-                "variable1": "`:notes: __**Other Options could be:**__`",
+                "variable1": "`:notes: __**Otras opciones podrían ser:**__`",
                 "variable2": "`>>> \\`\\`\\`blues, charts, chill, default, heavymetal, gaming, jazz, metal, magic-release, ncs, nocopyright, oldgaming, pop, remixes, rock, strange-fruits-gaming\\`\\`\\``",
-                "variablex_3": "`:muscle: **To play a different one type:**`", "variable3": "`> \\`${prefix}playmusicmix <NAME>\\`\\n💡 **Example:**\\n> \\`${prefix}playmusicmix pop\\``",
+                "variablex_3": "`:muscle: **Para Reproducir un tipo diferente:**`", "variable3": "`> \\`${prefix}playmusicmix <NAME>\\`\\n💡 **Example:**\\n> \\`${prefix}playmusicmix pop\\``",
                 "variable4": "`\\`\\`\\`${e.message}\\`\\`\\``"
             },
             "playsc": {
-                "variable1": "`<a:tickno:862809984043712553> You need to give me a URL or a search term.`",
+                "variable1": "`<a:tickno:862809984043712553> Tienes que darme una URL o un término de búsqueda.`",
                 "variable2": "`\\`\\`\\`${e.message}\\`\\`\\``"
             },
             "playskip": {
-                "variable1": "`<a:tickno:862809984043712553> You need to give me a URL or a Search term.`",
+                "variable1": "`<a:tickno:862809984043712553> Tienes que darme una URL o un término de búsqueda.`",
                 "variable2": "`\\`\\`\\`${e.message}\\`\\`\\``"
             },
             "playskipsc": {
-                "variable1": "`<a:tickno:862809984043712553> You need to give me a URL or a Search term.`",
+                "variable1": "`<a:tickno:862809984043712553> Tienes que darme una URL o un término de búsqueda.`",
                 "variable2": "`\\`\\`\\`${e.message}\\`\\`\\``"
             },
             "playsongoftheday": {
                 "variable1": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
             },
             "playtop": {
-                "variable1": "`<a:tickno:862809984043712553> You need to give me a URL or a Search term.`"
+                "variable1": "`<a:tickno:862809984043712553> Tienes que darme una URL o un término de búsqueda.`"
             },
             "queue": {
                 "variablex_1": "`**0) CURRENT TRACK**`", "variable1": "`**${player.queue.current.title.substr(0, 60)}** - \\`${player.queue.current.isStream ? `LIVE STREAM` : format(player.queue.current.duration).split(` | `)[0]}\\`\\n*request by: ${player.queue.current.requester.tag}*`",
@@ -596,11 +596,11 @@
                 "variable5": "`\\`\\`\\`${e.message}\\`\\`\\``"
             },
             "queuestatus": {
-                "variable1": "`Queue Information of **${message.guild.name}**`",
-                "variable2": "`**Connected to:** <#${player.voiceChannel}> **And bound to:** <#${player.textChannel}>`",
+                "variable1": "`Información de la lista de **${message.guild.name}**`",
+                "variable2": "`**Conectado a:** <#${player.voiceChannel}> **Y atado a:** <#${player.textChannel}>`",
                 "variablex_3": "`${emoji.msg.autoplay_mode} Autoplay`", "variable3": "`\\`\\`\\`${player.get(`autoplay`) ? `✅ Enabled` : `❌ Disabled`}\\`\\`\\``",
-                "variablex_4": "`${emoji.msg.disk} Current Track: `", "variable4": "`${player.queue && player.queue.current ? `${player.playing ? `${emoji.msg.resume}` : `${emoji.msg.pause}`} [**${player.queue.current.title}**](${player.queue.current.uri})` : `\\`\\`\\`❌ Nothing Playing\\`\\`\\``}`",
-                "variablex_5": "`${emoji.msg.time} Progress: `", "variable5": "player.queue && player.queue.current ? createBar(player) : `\\`\\`\\`❌ Nothing Playing\\`\\`\\``",
+                "variablex_4": "`${emoji.msg.disk} Current Track: `", "variable4": "`${player.queue && player.queue.current ? `${player.playing ? `${emoji.msg.resume}` : `${emoji.msg.pause}`} [**${player.queue.current.title}**](${player.queue.current.uri})` : `\\`\\`\\`❌ nada reproduciendo\\`\\`\\``}`",
+                "variablex_5": "`${emoji.msg.time} Progress: `", "variable5": "player.queue && player.queue.current ? createBar(player) : `\\`\\`\\`❌ nada reproduciendo\\`\\`\\``",
                 "variable6": "`${e.message}`"
             },
             "radio": {
